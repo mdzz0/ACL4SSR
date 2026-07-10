@@ -1,0 +1,7 @@
+# 德国的WifiCalling列表
+
+
+#  沃达丰
+DOMAIN-SUFFIX,vodafone-ip.de
+DOMAIN-SUFFIX,mcc262.pub.3gppnetwork.org
+DOMAIN-KEYWORD,mcc262
