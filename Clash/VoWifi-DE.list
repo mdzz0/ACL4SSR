@@ -5,3 +5,7 @@
 DOMAIN-SUFFIX,vodafone-ip.de
 DOMAIN-SUFFIX,mcc262.pub.3gppnetwork.org
 DOMAIN-KEYWORD,mcc262
+#fp-de-carrier-vodafone.rcs.telephony.goog:5223
+DOMAIN,fp-de-carrier-vodafone.rcs.telephony.goog
+
+
