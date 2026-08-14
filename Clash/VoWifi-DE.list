@@ -1,11 +1,19 @@
 # 德国的WifiCalling列表
+# 参考： https://raw.githubusercontent.com/iniwex5/tools/refs/heads/main/rules/DE-wifi-call.list
 
+# 德国
+DOMAIN-SUFFIX,de
 
 #  沃达丰
 DOMAIN-SUFFIX,vodafone-ip.de
 DOMAIN-SUFFIX,mcc262.pub.3gppnetwork.org
 DOMAIN-KEYWORD,mcc262
-#fp-de-carrier-vodafone.rcs.telephony.goog:5223
+#[TCP]fp-de-carrier-vodafone.rcs.telephony.goog:5223
 DOMAIN,fp-de-carrier-vodafone.rcs.telephony.goog
+IP-CIDR,139.7.0.0/16,no-resolve
 
 
+# O2
+#62.52.52.30:500	Socks5 | udp
+IP-CIDR,62.52.0.0/14,no-resolve
+IP-CIDR,213.20.0.0/16,no-resolve
