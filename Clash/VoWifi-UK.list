@@ -1,4 +1,10 @@
 # 英国的WifiCalling列表
+# 规则来源：https://github.com/iniwex5
+# 规则来源：https://github.com/LOWERTOP
+# 具体参考：https://raw.githubusercontent.com/iniwex5/tools/refs/heads/main/rules/UK-wifi-call.list
+
+# 英国
+DOMAIN-SUFFIX,co.uk
 
 # 连接记录出现也加入代理节点
 DOMAIN,uk-cv1.ccdnadns.cc
@@ -15,6 +21,7 @@ DOMAIN-SUFFIX,mcc234.pub.3gppnetwork.org
 
 #  沃达丰
 DOMAIN-SUFFIX,entsrv-uk.vodafone.com
+DOMAIN-SUFFIX,vuk-gto.prod.ondemandconnectivity.com
 #DOMAIN,epdg.vodafone.co.uk
 DOMAIN-SUFFIX,vodafone.co.uk
 DOMAIN-KEYWORD,mcc234
@@ -26,6 +33,8 @@ IP-CIDR,46.68.0.0/17,no-resolve
 
 # Giffgaff
 DOMAIN-SUFFIX,giffgaff.com
+#[TCP]fp-gb-o2.rcs.telephony.goog:5223
+DOMAIN,fp-gb-o2.rcs.telephony.goog
 IP-CIDR,87.194.0.0/16,no-resolve
 
 # VOXI //DOMAIN,vfgb.idemia.io
