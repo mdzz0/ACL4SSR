@@ -25,22 +25,22 @@ DOMAIN-SUFFIX,vuk-gto.prod.ondemandconnectivity.com
 #DOMAIN,epdg.vodafone.co.uk
 DOMAIN-SUFFIX,vodafone.co.uk
 DOMAIN-KEYWORD,mcc234
-IP-CIDR,88.82.0.0/19,no-resolve
-IP-CIDR,148.252.160.0/19,no-resolve
+IP-CIDR,88.82.0.0/19
+IP-CIDR,148.252.160.0/19
 
 # CMLink UK EE
-IP-CIDR,46.68.0.0/17,no-resolve
+IP-CIDR,46.68.0.0/17
 
 # Giffgaff
 DOMAIN-SUFFIX,giffgaff.com
 #[TCP]fp-gb-o2.rcs.telephony.goog:5223
 DOMAIN,fp-gb-o2.rcs.telephony.goog
-IP-CIDR,87.194.0.0/16,no-resolve
+IP-CIDR,87.194.0.0/16
 
 # VOXI //DOMAIN,vfgb.idemia.io
 DOMAIN-SUFFIX,idemia.io
-IP-CIDR,148.252.160.0/19,no-resolve
+IP-CIDR,148.252.160.0/19
 
 # CTE
 DOMAIN-SUFFIX,ee.co.uk
-IP-CIDR,31.94.0.0/16,no-resolve
+IP-CIDR,31.94.0.0/16
